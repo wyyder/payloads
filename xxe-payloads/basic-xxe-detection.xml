@@ -1,6 +1,6 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY example "Works?"> ]>
- <userInfo>
-  <firstName>Wyyder</firstName>
-  <lastName>&example;</lastName>
-</userInfo>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE replace [<!ENTITY basic "Wyyder"> ]>
+<sky>
+    <star x="50" y="80">&basic;</star>
+</sky>
+<!-- Change the XML Structure & Tags according to the Target.->
